@@ -1,4 +1,4 @@
-go-offheap-hashtable
-====================
+go-inthash
+==========
 
-when GC pauses are long, and you need an off-heap hash-table
+go version of basic hash map, open addressing with linear probing. uint64 keys. Inspired by http://preshing.com/20130107/this-hash-table-is-faster-than-a-judy-array/
